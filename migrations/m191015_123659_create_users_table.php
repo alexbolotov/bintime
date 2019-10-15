@@ -19,7 +19,7 @@ class m191015_123659_create_users_table extends Migration
             'name' => $this->string()->notNull(),
             'surname' => $this->string()->notNull(),
             'gender' => $this->string()->notNull(),
-            'date' => $this->date()->notNull(),
+            'date' => $this->datetime()->notNull(),
             'email' => $this->string()->notNull()
         ]);
     }
