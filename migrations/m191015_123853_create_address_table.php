@@ -22,8 +22,18 @@ class m191015_123853_create_address_table extends Migration
             'apartment' => $this->string(),
             'user_id' => $this->integer()->notNull()
         ]);
+    
+        $this->addForeignKey(
+            'user_id',
+            'address',
+            'user_id',
+            'users',
+            'id',
+            'CASCADE'
+        );
     }
 
+   
     /**
      * {@inheritdoc}
      */
