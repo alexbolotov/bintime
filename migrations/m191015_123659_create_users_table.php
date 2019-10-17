@@ -21,13 +21,14 @@ class m191015_123659_create_users_table extends Migration
             'gender' => $this->string()->notNull(),
             'date' => $this->datetime()->notNull(),
             'email' => $this->string()->notNull(),
-            'index' => $this->integer()->notNull(),
+            'index' => $this->string()->notNull(),
             'country' => $this->string()->notNull(),
             'city' => $this->string()->notNull(),
             'street' => $this->string()->notNull(),
             'house' => $this->string()->notNull(),
             'apartment' => $this->string(),
         ]);
+        
     }
 
     /**

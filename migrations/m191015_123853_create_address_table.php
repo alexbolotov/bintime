@@ -14,7 +14,7 @@ class m191015_123853_create_address_table extends Migration
     {
         $this->createTable('{{%address}}', [
             'id' => $this->primaryKey(),
-            'index' => $this->integer()->notNull(),
+            'index' => $this->string()->notNull(),
             'country' => $this->string()->notNull(),
             'city' => $this->string()->notNull(),
             'street' => $this->string()->notNull(),
