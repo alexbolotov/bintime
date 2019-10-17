@@ -2,50 +2,35 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Testworks for BINTIME';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h2>Приветствую Вас!</h2>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">Меня зовут Александр Болотов и это мое тестовое задание для компании BINTIME.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p align="justify">ТЗ выполнено на фреймворке Yii2, в качестве редактора кода использовался NetBeans IDE 8.2, также использовалась одна человекосила и Google.
+Колесо не изобретал, использовал Gii для создания моделей и контроллеров. Кое-что не выполнил, это касается даты создания и форматирования ее, она просто есть. Кое-что сделано не совсем так как хотелось - это пагинация адресов пользователя (еще буду разбираться), и форма создания нового пользователя и его обязательного адреса, я их совместил (хотя изначально сделал таки две формы, а потом переделал и это сказалось отрицательно на отображении и поиске всех адресов, но заметил увы слишком поздно). Из меню убрано все лишнее. Основную часть ТЗ как мне кажется я выполнил, но в любом случае судить Вам.</p>
     </div>
 
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+            <div class="col-lg-6">
+                <h2>Пользователи</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Раздел пользователей выглядит совсем обычно, никаких украшательств нет. Чтобы избежать нагромождения данных некоторые столбцы убрал из отображения.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <p><a class="btn btn-default" href="users/index">Перейти в раздел Пользователи &raquo;</a></p>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+            <div class="col-lg-6">
+                <h2>Адреса пользователей</h2>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+                <p>Раздел адреса выглядит аналогично разделу пользователи, с той разницей, что нет возможности добавить просто адрес без пользователя.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-default" href="address/index">Перейти в раздел Адреса &raquo;</a></p>
             </div>
         </div>
 
