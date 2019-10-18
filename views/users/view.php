@@ -50,14 +50,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
     
 </div>
-    
+
+<div class="address-view">   
 <?php  
 
 if ($model2) {
 
 for($i = 0; $i < count($model2); $i++) {    
 ?>
-<div class="address-view">
+
 <h4> <?= Html::encode($this->title) ?> - дополнительный адрес пользователя </h4>
 <p>
         <?= Html::a('Обновить', ['address/update', 'id' => $model2[$i]->id], ['class' => 'btn btn-primary']) ?>
